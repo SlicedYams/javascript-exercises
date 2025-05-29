@@ -1,0 +1,18 @@
+- throws error with negative numbers
+- throws error with non-integer numbers
+- throws error with non-number parameters
+- works with a larger number as starting number
+
+sum(starting number (a), ending number (b)):
+    create variable to hold sum
+
+    if type of a or b is not number:
+        return "ERROR"
+    if ((a or b mod 1 is not 0) or (a or b is negative)):
+        return "ERROR"
+    if a > b:
+        create variable to hold a value
+        a = b
+        b = a
+    for (starting at a, while a is not greater than b, a++):
+        sum += a
