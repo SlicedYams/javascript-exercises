@@ -1,0 +1,9 @@
+-years divisible by 4 are leap years
+-years not divisible by 100 but are divisible by 400 are leap years
+
+leapYears(year):
+    
+    if year is divisible by 4 and not by 100 OR year is divisible by 100 AND divisible 400:
+        return true;
+    else:
+        return false;
