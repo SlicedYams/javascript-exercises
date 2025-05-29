@@ -1,0 +1,18 @@
+- works with negatives
+- round to 1 decimal place
+
+convertToCelsius(number):
+    create variable toCelsius = (number - 32) * (5/9)
+    
+    if toCelsius is a decimal:
+        round toCelsius to 1 decimal place
+
+    return toCelsius
+
+convertToFahrenheit(number):
+    create variable toFahrenheit = number * (9/5) + 32
+    
+    if toCelsius is a decimal:
+        round toCelsius to 1 decimal place
+
+    return toCelsius
